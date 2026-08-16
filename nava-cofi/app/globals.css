@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+@keyframes ticker-scroll {
+from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-50%);
+  }
+}
+
+.ticker-track {
+    animation: ticker-scroll 20s linear infinite;
+}
