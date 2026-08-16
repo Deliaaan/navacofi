@@ -3,7 +3,7 @@
 import { Doto, Roboto} from 'next/font/google'
 
 const doto = Doto({ subsets: ['latin'] })
-const roboto = Roboto({ subsets: ['latin'], weight: '400' })
+
 
 const RECOMMENDED = [
     'Iced brown latte',
@@ -16,7 +16,7 @@ export default function RecommendedTicker() {
     const items = [...RECOMMENDED, ...RECOMMENDED]
 
     return (
-        <div className="h-88 overflow-hidden">
+        <div className="h-116 overflow-hidden">
             <div className="ticker-track flex flex-col items-center gap-4">
                 {items.map((drink, i) => (
                     <span

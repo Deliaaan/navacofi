@@ -1,6 +1,6 @@
 "use client";
 
-import { Doto, Moirai_One, Roboto } from "next/font/google";
+import { Doto, Moirai_One, Jersey_10 } from "next/font/google";
 import RecommendedTicker from './components/sidebar/RecommendedTicker'
 
 const doto = Doto({
@@ -11,7 +11,7 @@ const moirai = Moirai_One({
   weight: "400",
 });
 
-const roboto = Roboto({ subsets: ['latin'], weight: '400' })
+const jersey10 = Jersey_10({ subsets: ['latin'], weight: '400' })
 
 export default function Home() {
   return (
@@ -38,8 +38,8 @@ export default function Home() {
         {/* Recomendados, abajo */}
         <div className="flex flex-col items-center gap-4">
           <RecommendedTicker />
-          <span className={`[writing-mode:vertical-rl] rotate-180 text-3xl font-bold text-black p-3 ${roboto.className}`}>
-            Recomendados 
+          <span className={`[writing-mode:vertical-rl] rotate-180 text-3xl font-bold text-blue-600 p-3 ${jersey10.className}`}>
+            Favoritos:
           </span>
         </div>
       </aside>
