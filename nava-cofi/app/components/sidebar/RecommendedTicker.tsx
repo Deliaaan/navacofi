@@ -21,7 +21,7 @@ export default function RecommendedTicker() {
                 {items.map((drink, i) => (
                     <span
                         key={i}
-                        className={`${doto.className} [writing-mode:vertical-rl] rotate-180 text-2xl tracking-widest text-blue-600`}
+                        className={`${doto.className} [writing-mode:vertical-rl] rotate-180 text-2xl tracking-widest text-cofi-green`}
                         >
                             {drink} ✦ 
                     </span>
