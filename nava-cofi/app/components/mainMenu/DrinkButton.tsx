@@ -13,8 +13,7 @@ export default function DrinkButton({
   return (
     <button
       onClick={onSelect}
-      onMouseEnter={() => {/* acá va el preload del modelo/webm, como charlamos antes */}}
-      className={`text-2xl transition-colors ${
+      className={`text-2xl transition-colors rounded-4xl w-fit p-3 h-fit item-center ${
         isActive
           ? 'bg-cream text-cofi-green'
           : 'bg-cofi-green text-cream'
