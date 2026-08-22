@@ -1,6 +1,6 @@
 'use client'
 
-import { Doto, Roboto} from 'next/font/google'
+import { Doto } from 'next/font/google'
 
 const doto = Doto({ subsets: ['latin'] })
 
@@ -9,7 +9,7 @@ const RECOMMENDED = [
     'Iced brown latte',
     'Spanish latte',
     'Moka',
-    'Iced spanish latte'
+    'Iced spanish latte' 
 ]
 
 export default function RecommendedTicker() {
