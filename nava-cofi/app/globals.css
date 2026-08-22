@@ -3,8 +3,15 @@
 @theme {
   --color-cofi-green:  #0B3D33;
   --color-cream: #FFF8E8;
-  --color-menu-black: #FFFFFF;   
+  --color-menu-black: #000000;   
 }
+
+.theme-fria {
+  --color-cofi-green: #FFF8E8;
+  --color-cream: #11554A;
+  --color-menu-black: #FFFFFF;
+}
+
 
 @keyframes ticker-scroll {
 from {

@@ -16,7 +16,7 @@ export default function RecommendedTicker() {
     const items = [...RECOMMENDED, ...RECOMMENDED]
 
     return (
-        <div className="h-116 overflow-hidden">
+        <div className="h-100 overflow-hidden">
             <div className="ticker-track flex flex-col items-center gap-4">
                 {items.map((drink, i) => (
                     <span
